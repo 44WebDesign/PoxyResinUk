@@ -19,7 +19,7 @@ export default function Process() {
             >
               <video 
                 className="w-full h-full object-cover" 
-                src="/epoxy.mp4" 
+                src="https://58webdesign.co.uk/artwork/poxyresin/epoxy.mp4" 
                 autoPlay 
                 loop 
                 muted 

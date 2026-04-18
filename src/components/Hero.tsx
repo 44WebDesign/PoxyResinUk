@@ -63,8 +63,9 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-fill" 
-                src="/6.png" 
+                src="https://58webdesign.co.uk/artwork/poxyresin/6.png" 
                 alt="Vibrant resin pour"
+                referrerPolicy="no-referrer"
               />
             </motion.div>
             <motion.div 
@@ -74,8 +75,9 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="/7.png" 
+                src="https://58webdesign.co.uk/artwork/poxyresin/7.png" 
                 alt="Pouring resin"
+                referrerPolicy="no-referrer"
               />
             </motion.div>
             <div className="absolute -top-12 -right-12 w-48 h-48 bg-primary/10 rounded-full blur-3xl z-0"></div>

@@ -6,14 +6,14 @@ const products = [
     name: "4L Resin Kit",
     description: "Clear Casting Resin With Hardener",
     price: "£42.48",
-    image: "/9.png"
+    image: "https://58webdesign.co.uk/artwork/poxyresin/9.png"
   },
   {
     id: 2,
     name: "1L Resin Kit",
     description: "UV Resistant, 35 Minute Work Time",
     price: "£16.98",
-    image: "/10.png"
+    image: "https://58webdesign.co.uk/artwork/poxyresin/10.png"
   }
 ];
 
@@ -51,6 +51,7 @@ export default function ProductShowcase() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
                   src={product.image} 
                   alt={`${product.name} - ${product.description}`}
+                  referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
                   <button className="bg-primary text-white w-full py-3 rounded-full font-bold">

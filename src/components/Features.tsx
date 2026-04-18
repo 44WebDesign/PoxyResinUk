@@ -46,8 +46,9 @@ export default function Features() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="/7.png" 
+                src="https://58webdesign.co.uk/artwork/poxyresin/7.png" 
                 alt="Deep pour detail"
+                referrerPolicy="no-referrer"
               />
             </motion.div>
           </motion.div>
