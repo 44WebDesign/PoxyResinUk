@@ -1,6 +1,7 @@
 import { useState, useEffect, FormEvent } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Mail, Sparkles } from 'lucide-react';
+import img10 from '../assets/images/10.png';
 
 export default function NewsletterPopup() {
   const [isVisible, setIsVisible] = useState(false);
@@ -58,7 +59,7 @@ export default function NewsletterPopup() {
                 </div>
               </div>
               <img 
-                src="/10.png"
+                src={img10}
                 alt="Colorful resin" 
                 className="absolute inset-0 w-full h-full object-cover" 
               />

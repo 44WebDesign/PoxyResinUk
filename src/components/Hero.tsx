@@ -1,4 +1,6 @@
 import { motion } from 'motion/react';
+import img6 from '../assets/images/6.png';
+import img7 from '../assets/images/7.png';
 
 export default function Hero() {
   return (
@@ -63,7 +65,7 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-fill" 
-                src="/6.png" 
+                src={img6} 
                 alt="Vibrant resin pour"
               />
             </motion.div>
@@ -74,7 +76,7 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="/7.png" 
+                src={img7} 
                 alt="Pouring resin"
               />
             </motion.div>
