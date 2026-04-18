@@ -1,6 +1,5 @@
 import { Palette } from 'lucide-react';
 import { motion } from 'motion/react';
-import videoEpoxy from '/images/epoxy.mp4?url';
 
 export default function Process() {
   return (
@@ -20,7 +19,7 @@ export default function Process() {
             >
               <video 
                 className="w-full h-full object-cover" 
-                src={videoEpoxy} 
+                src="/epoxy.mp4" 
                 autoPlay 
                 loop 
                 muted 

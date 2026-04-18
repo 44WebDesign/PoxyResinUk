@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import img7 from '/images/7.png?url';
 
 // Using Lucide equivalents for Material Symbols
 import { Sun, Wind, Sparkles, ArrowRight } from 'lucide-react';
@@ -47,7 +46,7 @@ export default function Features() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src={img7} 
+                src="/7.png" 
                 alt="Deep pour detail"
               />
             </motion.div>
