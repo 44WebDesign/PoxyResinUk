@@ -48,6 +48,7 @@ export default function Features() {
                 className="w-full h-full object-cover" 
                 src="/7.png" 
                 alt="Deep pour detail"
+                referrerPolicy="no-referrer"
               />
             </motion.div>
           </motion.div>
