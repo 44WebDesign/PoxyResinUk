@@ -1,4 +1,6 @@
 import { motion } from 'motion/react';
+import kit4L from '../assets/kit_4L_v1.png';
+import kit1L from '../assets/kit_1L_v1.png';
 
 const products = [
   {
@@ -6,14 +8,14 @@ const products = [
     name: "4L Resin Kit",
     description: "Clear Casting Resin With Hardener",
     price: "£42.48",
-    image: "/9.png"
+    image: kit4L
   },
   {
     id: 2,
     name: "1L Resin Kit",
     description: "UV Resistant, 35 Minute Work Time",
     price: "£16.98",
-    image: "/10.png"
+    image: kit1L
   }
 ];
 

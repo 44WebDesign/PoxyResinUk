@@ -1,9 +1,8 @@
 import { motion } from 'motion/react';
+import pourDetailImage from '../assets/pour_resin_v1.png';
 
 // Using Lucide equivalents for Material Symbols
 import { Sun, Wind, Sparkles, ArrowRight } from 'lucide-react';
-
-const pourDetailImage = '/7.png';
 
 export default function Features() {
   return (
