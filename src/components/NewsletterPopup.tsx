@@ -61,6 +61,7 @@ export default function NewsletterPopup() {
                 src="/10.png"
                 alt="Colorful resin" 
                 className="absolute inset-0 w-full h-full object-cover" 
+                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-black/20 z-10" />
             </div>
