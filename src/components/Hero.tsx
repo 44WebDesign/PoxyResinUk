@@ -1,4 +1,6 @@
 import { motion } from 'motion/react';
+import heroImage from '../assets/6.png';
+import pourImage from '../assets/7.png';
 
 export default function Hero() {
   return (
@@ -63,7 +65,7 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-fill" 
-                src="/6.png" 
+                src={heroImage} 
                 alt="Vibrant resin pour"
                 referrerPolicy="no-referrer"
               />
@@ -75,7 +77,7 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="/7.png" 
+                src={pourImage} 
                 alt="Pouring resin"
                 referrerPolicy="no-referrer"
               />

@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import pourDetailImage from '../assets/7.png';
 
 // Using Lucide equivalents for Material Symbols
 import { Sun, Wind, Sparkles, ArrowRight } from 'lucide-react';
@@ -46,7 +47,7 @@ export default function Features() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="/7.png" 
+                src={pourDetailImage} 
                 alt="Deep pour detail"
                 referrerPolicy="no-referrer"
               />
