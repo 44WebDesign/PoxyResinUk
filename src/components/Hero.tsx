@@ -63,7 +63,7 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-fill" 
-                src="/images/6.png" 
+                src="/6.png" 
                 alt="Vibrant resin pour"
               />
             </motion.div>
@@ -74,7 +74,7 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="images/7.png" 
+                src="/7.png" 
                 alt="Pouring resin"
               />
             </motion.div>
