@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 // Using Lucide equivalents for Material Symbols
 import { Sun, Wind, Sparkles, ArrowRight } from 'lucide-react';
 
-const pourDetailImage = '/7.png';
+const pourDetailImage = '/pour.png';
 
 export default function Features() {
   return (

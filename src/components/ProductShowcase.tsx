@@ -6,14 +6,14 @@ const products = [
     name: "4L Resin Kit",
     description: "Clear Casting Resin With Hardener",
     price: "£42.48",
-    image: "/9.png"
+    image: "/kit4l.png"
   },
   {
     id: 2,
     name: "1L Resin Kit",
     description: "UV Resistant, 35 Minute Work Time",
     price: "£16.98",
-    image: "/10.png"
+    image: "/kit1l.png"
   }
 ];
 

@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 
-const heroImage = '/6.png';
-const pourImage = '/7.png';
+const heroImage = '/hero.png';
+const pourImage = '/pour.png';
 
 export default function Hero() {
   return (
