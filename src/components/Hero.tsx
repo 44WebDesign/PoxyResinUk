@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
-import img6 from '../assets/images/6.png';
-import img7 from '../assets/images/7.png';
+import img6 from '/images/6.png?url';
+import img7 from '/images/7.png?url';
 
 export default function Hero() {
   return (

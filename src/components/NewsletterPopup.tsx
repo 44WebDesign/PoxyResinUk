@@ -1,7 +1,7 @@
 import { useState, useEffect, FormEvent } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Mail, Sparkles } from 'lucide-react';
-import img10 from '../assets/images/10.png';
+import img10 from '/images/10.png?url';
 
 export default function NewsletterPopup() {
   const [isVisible, setIsVisible] = useState(false);

@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import img7 from '../assets/images/7.png';
+import img7 from '/images/7.png?url';
 
 // Using Lucide equivalents for Material Symbols
 import { Sun, Wind, Sparkles, ArrowRight } from 'lucide-react';

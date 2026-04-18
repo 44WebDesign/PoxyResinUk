@@ -1,6 +1,6 @@
 import { Palette } from 'lucide-react';
 import { motion } from 'motion/react';
-import videoEpoxy from '../assets/images/epoxy.mp4';
+import videoEpoxy from '/images/epoxy.mp4?url';
 
 export default function Process() {
   return (

@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
-import img9 from '../assets/images/9.png';
-import img10 from '../assets/images/10.png';
+import img9 from '/images/9.png?url';
+import img10 from '/images/10.png?url';
 
 const products = [
   {
