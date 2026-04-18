@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
+import heroImageImport from '../assets/hero.png';
 
-const heroImage = '/hero.png';
-const pourImage = '/pour.png';
+const heroImage = heroImageImport;
+const pourImage = 'https://picsum.photos/seed/pouring/600/600';
 
 export default function Hero() {
   return (
