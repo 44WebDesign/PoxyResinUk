@@ -38,13 +38,6 @@ export default function NewsletterPopup() {
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             className="bg-white rounded-2xl shadow-2xl overflow-hidden max-w-2xl w-full flex flex-col md:flex-row relative"
           >
-            <button 
-              onClick={handleDismiss}
-              className="absolute top-4 right-4 p-2 hover:bg-zinc-100 rounded-full transition-colors z-10"
-            >
-              <X size={20} />
-            </button>
-
             {/* Visual Side */}
             <div className="w-full md:w-1/2 relative bg-[#b40065] overflow-hidden min-h-[200px]">
               <div className="absolute inset-0 p-8 flex flex-col justify-end z-20">
@@ -97,6 +90,14 @@ export default function NewsletterPopup() {
                 No spam. Only high-gloss inspiration.
               </p>
             </div>
+
+            <button 
+              onClick={handleDismiss}
+              className="absolute top-4 right-4 p-3 hover:bg-zinc-100 rounded-full transition-all z-50 active:scale-90 touch-manipulation cursor-pointer"
+              aria-label="Close newsletter popup"
+            >
+              <X size={24} />
+            </button>
           </motion.div>
         </div>
       )}

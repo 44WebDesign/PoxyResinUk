@@ -55,11 +55,11 @@ export default function Hero() {
           transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
           className="lg:col-span-5 relative"
         >
-          <div className="relative w-full aspect-square">
+          <div className="relative w-full max-w-sm mx-auto lg:max-w-none aspect-[4/5] lg:aspect-square">
             <motion.div 
               animate={{ y: [0, -15, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute top-0 -right-20 w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl z-20 border-[12px] border-primary"
+              className="absolute top-0 left-1/2 -translate-x-1/2 lg:left-auto lg:-right-20 lg:translate-x-0 w-[90%] lg:w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl z-20 border-[8px] lg:border-[12px] border-primary"
             >
               <img 
                 className="w-full h-full object-fill" 
@@ -71,7 +71,7 @@ export default function Hero() {
             <motion.div 
               animate={{ y: [0, 15, 0] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-              className="absolute -bottom-10 left-4 w-2/3 aspect-square rounded-xl overflow-hidden border-[12px] border-surface z-30 shadow-xl"
+              className="absolute -bottom-8 left-1/2 -translate-x-1/2 lg:left-4 lg:translate-x-0 lg:-bottom-10 w-2/3 aspect-square rounded-xl overflow-hidden border-[8px] lg:border-[12px] border-surface z-30 shadow-xl"
             >
               <img 
                 className="w-full h-full object-cover" 
