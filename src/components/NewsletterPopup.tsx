@@ -58,7 +58,7 @@ export default function NewsletterPopup() {
                 </div>
               </div>
               <img 
-                src="https://58webdesign.co.uk/artwork/poxyresin/10.png"
+                src="https://i.ibb.co/S4wX3Dvm/10.png"
                 alt="Colorful resin" 
                 className="absolute inset-0 w-full h-full object-cover" 
                 referrerPolicy="no-referrer"

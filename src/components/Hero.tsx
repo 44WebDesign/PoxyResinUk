@@ -63,7 +63,7 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-fill" 
-                src="https://58webdesign.co.uk/artwork/poxyresin/6.png" 
+                src="https://i.ibb.co/tpL2p9cD/6.png" 
                 alt="Vibrant resin pour"
                 referrerPolicy="no-referrer"
               />
@@ -75,7 +75,7 @@ export default function Hero() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="https://58webdesign.co.uk/artwork/poxyresin/7.png" 
+                src="https://i.ibb.co/7x4rKGc8/7.png" 
                 alt="Pouring resin"
                 referrerPolicy="no-referrer"
               />
