@@ -6,14 +6,14 @@ const products = [
     name: "4L Resin Kit",
     description: "Clear Casting Resin With Hardener",
     price: "£42.48",
-    image: "https://i.ibb.co/2YtmRb66/9.png"
+    image: "https://i.ibb.co/1Grjd0X9/IMG-8514.jpg"
   },
   {
     id: 2,
     name: "1L Resin Kit",
     description: "UV Resistant, 35 Minute Work Time",
     price: "£16.98",
-    image: "https://i.ibb.co/S4wX3Dvm/10.png"
+    image: "https://i.ibb.co/YTBhyHxH/IMG-8515.jpg"
   }
 ];
 
@@ -45,7 +45,7 @@ export default function ProductShowcase() {
               <motion.div 
                 animate={{ y: index % 2 === 0 ? [0, -8, 0] : [0, 8, 0] }}
                 transition={{ duration: 4.5 + index, repeat: Infinity, ease: "easeInOut" }}
-                className="aspect-[3/4] rounded-xl overflow-hidden mb-6 relative border-[10px] border-primary shadow-lg"
+                className="aspect-[3/4] rounded-2xl overflow-hidden mb-6 relative border border-white/10 shadow-2xl group-hover:border-primary/50 transition-all duration-500"
               >
                 <img 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 

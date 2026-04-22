@@ -42,11 +42,11 @@ export default function Features() {
             <motion.div 
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute bottom-6 right-6 w-[35%] md:w-1/2 aspect-square opacity-100 transition-opacity rounded-xl overflow-hidden border-[8px] md:border-[10px] border-primary shadow-lg"
+              className="absolute bottom-6 right-6 w-[35%] md:w-1/2 aspect-square opacity-100 transition-all rounded-3xl overflow-hidden border-4 md:border-8 border-white shadow-2xl group-hover:border-primary/20"
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="https://i.ibb.co/7x4rKGc8/7.png" 
+                src="https://i.ibb.co/FqmTdJB8/IMG-8510.jpg" 
                 alt="Deep pour detail"
                 referrerPolicy="no-referrer"
               />

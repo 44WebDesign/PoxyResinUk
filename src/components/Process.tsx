@@ -10,20 +10,18 @@ export default function Process() {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative group"
           >
             <motion.div 
               animate={{ y: [0, -12, 0] }}
               transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
-              className="w-full aspect-[4/5] bg-surface-container-high asymmetric-border-xl overflow-hidden z-10 relative"
+              className="w-full aspect-[4/5] bg-surface-container-high asymmetric-border-xl overflow-hidden z-10 relative shadow-2xl border-4 md:border-8 border-white transition-all duration-500 group-hover:border-primary/20"
             >
-              <video 
+              <img 
                 className="w-full h-full object-cover" 
-                src="https://58webdesign.co.uk/artwork/poxyresin/epoxy.mp4" 
-                autoPlay 
-                loop 
-                muted 
-                playsInline
+                src="https://i.ibb.co/4RZntHgh/IMG-8512.jpg" 
+                alt="Resin art process"
+                referrerPolicy="no-referrer"
               />
             </motion.div>
             <div className="absolute -bottom-12 -right-12 bg-white p-8 rounded-xl shadow-xl max-w-xs z-20">

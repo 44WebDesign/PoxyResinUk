@@ -59,11 +59,11 @@ export default function Hero() {
             <motion.div 
               animate={{ y: [0, -15, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute top-0 left-1/2 -translate-x-1/2 lg:left-auto lg:-right-20 lg:translate-x-0 w-[90%] lg:w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl z-20 border-[8px] lg:border-[12px] border-primary"
+              className="absolute top-0 left-1/2 -translate-x-1/2 lg:left-auto lg:-right-20 lg:translate-x-0 w-[90%] lg:w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl z-20 border-4 lg:border-8 border-white group-hover:border-white transition-all duration-500"
             >
               <img 
-                className="w-full h-full object-fill" 
-                src="https://i.ibb.co/tpL2p9cD/6.png" 
+                className="w-full h-full object-cover" 
+                src="https://i.ibb.co/MksvfpRj/IMG-8513.jpg" 
                 alt="Vibrant resin pour"
                 referrerPolicy="no-referrer"
               />
@@ -71,11 +71,11 @@ export default function Hero() {
             <motion.div 
               animate={{ y: [0, 15, 0] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-              className="absolute -bottom-8 left-1/2 -translate-x-1/2 lg:left-4 lg:translate-x-0 lg:-bottom-10 w-2/3 aspect-square rounded-xl overflow-hidden border-[8px] lg:border-[12px] border-surface z-30 shadow-xl"
+              className="absolute -bottom-8 left-1/2 -translate-x-1/2 lg:left-4 lg:translate-x-0 lg:-bottom-10 w-2/3 aspect-square rounded-3xl overflow-hidden border-4 lg:border-8 border-white/90 z-30 shadow-2xl backdrop-blur-sm transition-all duration-500"
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="https://i.ibb.co/7x4rKGc8/7.png" 
+                src="https://i.ibb.co/1Grjd0X9/IMG-8514.jpg" 
                 alt="Pouring resin"
                 referrerPolicy="no-referrer"
               />
