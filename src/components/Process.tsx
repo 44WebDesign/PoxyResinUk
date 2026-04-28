@@ -19,7 +19,7 @@ export default function Process() {
             >
               <img 
                 className="w-full h-full object-cover" 
-                src="https://i.ibb.co/4RZntHgh/IMG-8512.jpg" 
+                src="https://i.ibb.co/hFR1HFQ3/ab570936-f208-4a3d-a982-171b3900e796.jpg" 
                 alt="Resin art process"
                 referrerPolicy="no-referrer"
               />
